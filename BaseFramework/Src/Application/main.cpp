@@ -221,6 +221,9 @@ bool Application::Init(int w, int h)
 	//===================================================================
 	KdAudioManager::Instance().Init();
 
+	//※※消す※※
+	test = 10;
+
 	return true;
 }
 
